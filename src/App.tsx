@@ -27,10 +27,15 @@ function App() {
 
   return (
     <div className="App">
-      <h1>EFF Dice-Generated Passphrases</h1>
-      <p>This small app implements the idea presented <a href='https://www.eff.org/dice'>here</a></p>
-      <DiceComponentContainer diceValues={diceValues} onUpdateDiceRoll={(index) => updateDiceValues(index)} />
-      <Passphrase phrases={phrases}></Passphrase>
+      <section style={{height: '100%'}}>
+        <h1>EFF Dice-Generated Passphrases</h1>
+        <p className='info'>This small app implements the idea presented <a href='https://www.eff.org/dice'>here</a></p>
+        <DiceComponentContainer diceValues={diceValues} onUpdateDiceRoll={(index) => updateDiceValues(index)} />
+        <Passphrase phrases={phrases}></Passphrase>
+      </section>
+      <footer className='footer'>
+      Made with ❤️, by Ingo Richter using React.
+      </footer>
     </div>
   )
 }

@@ -10,7 +10,7 @@ interface DiceComponentProps {
 const DiceComponent = (props: DiceComponentProps) => {
     return (
         <div className='DiceComponent'>
-            <button onClick={() => props.onDiceRoll(props.index)}>Roll The Dice</button>
+            <button onClick={() => props.onDiceRoll(props.index)}>Roll The Dices</button>
             <div className="dice-container">
                 {props.diceValues.map((item, index) => {
                     return <Dice key={index} num={props.diceValues[index]} />
