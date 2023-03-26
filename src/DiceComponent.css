@@ -1,0 +1,20 @@
+.DiceComponent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    border-radius: 10px;
+    padding: 5px;
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    border-color: #ff0000;
+}
+
+.dice-container {
+    display: flex;
+    width: 350px;
+    margin: auto;
+    justify-content: space-around;
+    align-items: center;
+}

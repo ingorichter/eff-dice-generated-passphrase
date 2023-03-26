@@ -1,0 +1,11 @@
+.Dice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    border-radius: 10px;
+    width: 50px;
+    height: 50px;
+    border: solid red;
+    border-color: #ff0000;
+}
