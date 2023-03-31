@@ -3,5 +3,6 @@ Simple reactjs app implementing the idea of generating a passphrase by rolling s
 
 # Todo
 - [X] Add copy to clipboard
+- [ ] Make copy to clipboard board appear on hover (like on github when hovering over source code)
 - [ ] Fade the copy success message after some time
 - [ ] Add reset button
